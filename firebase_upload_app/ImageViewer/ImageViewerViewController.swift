@@ -14,7 +14,7 @@ extension NSCollectionLayoutSection {
                      itemInsets: NSDirectionalEdgeInsets = .init(),
                      itemHeight: NSCollectionLayoutDimension? = nil,
                      itemWidth: NSCollectionLayoutDimension? = nil,
-                     height: NSCollectionLayoutDimension = .estimated(100),
+                     height: NSCollectionLayoutDimension = .absolute(240),
                      horizontalLayoutItems: Int = 1) -> NSCollectionLayoutSection {
         
         // MARK: Item Size
@@ -42,6 +42,7 @@ class ImageViewerViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView! {
         didSet {
             collectionView.register(UINib(nibName: cellName, bundle: Bundle(for: ImageViewerCellCollectionViewCell.self)), forCellWithReuseIdentifier: cellName)
+            collectionView.collectionViewLayout = UICollectionViewCompositionalLayout(section: .list())
             collectionView.dataSource = self
         }
     }
