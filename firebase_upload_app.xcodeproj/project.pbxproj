@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4B08F47828E1188F00FA1A58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B08F47728E1188F00FA1A58 /* GoogleService-Info.plist */; };
+		4B08F47D28E130D500FA1A58 /* ConfirmScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B08F47B28E130D500FA1A58 /* ConfirmScreenViewController.swift */; };
+		4B08F47E28E130D500FA1A58 /* ConfirmScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B08F47C28E130D500FA1A58 /* ConfirmScreenViewController.xib */; };
+		4B08F48128E138FE00FA1A58 /* ConfirmDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B08F48028E138FE00FA1A58 /* ConfirmDelegate.swift */; };
+		4B08F48528E13DD500FA1A58 /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B08F48328E13DD500FA1A58 /* ImageViewerViewController.swift */; };
+		4B08F48628E13DD500FA1A58 /* ImageViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B08F48428E13DD500FA1A58 /* ImageViewerViewController.xib */; };
+		4B6CD98D28E13F8B0075BA1C /* ImageViewerCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CD98B28E13F8B0075BA1C /* ImageViewerCellCollectionViewCell.swift */; };
+		4B6CD98E28E13F8B0075BA1C /* ImageViewerCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B6CD98C28E13F8B0075BA1C /* ImageViewerCellCollectionViewCell.xib */; };
+		4B6CD99028E143D40075BA1C /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6CD98F28E143D40075BA1C /* UIImageView+Extensions.swift */; };
 		4B98B72F28E114D80093A477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98B72E28E114D80093A477 /* AppDelegate.swift */; };
 		4B98B73328E114D80093A477 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98B73228E114D80093A477 /* MainViewController.swift */; };
 		4B98B73828E114DA0093A477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B98B73728E114DA0093A477 /* Assets.xcassets */; };
@@ -17,6 +25,14 @@
 
 /* Begin PBXFileReference section */
 		4B08F47728E1188F00FA1A58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B08F47B28E130D500FA1A58 /* ConfirmScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmScreenViewController.swift; sourceTree = "<group>"; };
+		4B08F47C28E130D500FA1A58 /* ConfirmScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmScreenViewController.xib; sourceTree = "<group>"; };
+		4B08F48028E138FE00FA1A58 /* ConfirmDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDelegate.swift; sourceTree = "<group>"; };
+		4B08F48328E13DD500FA1A58 /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		4B08F48428E13DD500FA1A58 /* ImageViewerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewerViewController.xib; sourceTree = "<group>"; };
+		4B6CD98B28E13F8B0075BA1C /* ImageViewerCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B6CD98C28E13F8B0075BA1C /* ImageViewerCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewerCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		4B6CD98F28E143D40075BA1C /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		4B98B72B28E114D80093A477 /* firebase_upload_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebase_upload_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B98B72E28E114D80093A477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B98B73228E114D80093A477 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +56,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B08F47928E12FCF00FA1A58 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4B98B73228E114D80093A477 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4B08F47A28E1307C00FA1A58 /* ConfirmScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4B08F47B28E130D500FA1A58 /* ConfirmScreenViewController.swift */,
+				4B08F47C28E130D500FA1A58 /* ConfirmScreenViewController.xib */,
+			);
+			path = ConfirmScreen;
+			sourceTree = "<group>";
+		};
+		4B08F47F28E138F200FA1A58 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4B08F48028E138FE00FA1A58 /* ConfirmDelegate.swift */,
+				4B6CD98F28E143D40075BA1C /* UIImageView+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4B08F48228E13DB800FA1A58 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				4B6CD98A28E13F690075BA1C /* ImageViewerCell */,
+				4B08F48328E13DD500FA1A58 /* ImageViewerViewController.swift */,
+				4B08F48428E13DD500FA1A58 /* ImageViewerViewController.xib */,
+			);
+			path = ImageViewer;
+			sourceTree = "<group>";
+		};
+		4B6CD98A28E13F690075BA1C /* ImageViewerCell */ = {
+			isa = PBXGroup;
+			children = (
+				4B6CD98B28E13F8B0075BA1C /* ImageViewerCellCollectionViewCell.swift */,
+				4B6CD98C28E13F8B0075BA1C /* ImageViewerCellCollectionViewCell.xib */,
+			);
+			path = ImageViewerCell;
+			sourceTree = "<group>";
+		};
 		4B98B72228E114D80093A477 = {
 			isa = PBXGroup;
 			children = (
@@ -61,9 +122,12 @@
 		4B98B72D28E114D80093A477 /* firebase_upload_app */ = {
 			isa = PBXGroup;
 			children = (
+				4B08F48228E13DB800FA1A58 /* ImageViewer */,
+				4B08F47F28E138F200FA1A58 /* Utils */,
+				4B08F47A28E1307C00FA1A58 /* ConfirmScreen */,
+				4B08F47928E12FCF00FA1A58 /* Main */,
 				4B08F47728E1188F00FA1A58 /* GoogleService-Info.plist */,
 				4B98B72E28E114D80093A477 /* AppDelegate.swift */,
-				4B98B73228E114D80093A477 /* MainViewController.swift */,
 				4B98B73728E114DA0093A477 /* Assets.xcassets */,
 				4B98B73928E114DA0093A477 /* LaunchScreen.storyboard */,
 				4B98B73C28E114DA0093A477 /* Info.plist */,
@@ -149,7 +213,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B98B73B28E114DA0093A477 /* LaunchScreen.storyboard in Resources */,
+				4B08F47E28E130D500FA1A58 /* ConfirmScreenViewController.xib in Resources */,
+				4B08F48628E13DD500FA1A58 /* ImageViewerViewController.xib in Resources */,
 				4B08F47828E1188F00FA1A58 /* GoogleService-Info.plist in Resources */,
+				4B6CD98E28E13F8B0075BA1C /* ImageViewerCellCollectionViewCell.xib in Resources */,
 				4B98B73828E114DA0093A477 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B98B73328E114D80093A477 /* MainViewController.swift in Sources */,
+				4B08F48128E138FE00FA1A58 /* ConfirmDelegate.swift in Sources */,
+				4B6CD98D28E13F8B0075BA1C /* ImageViewerCellCollectionViewCell.swift in Sources */,
+				4B6CD99028E143D40075BA1C /* UIImageView+Extensions.swift in Sources */,
 				4B98B72F28E114D80093A477 /* AppDelegate.swift in Sources */,
+				4B08F48528E13DD500FA1A58 /* ImageViewerViewController.swift in Sources */,
+				4B08F47D28E130D500FA1A58 /* ConfirmScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
